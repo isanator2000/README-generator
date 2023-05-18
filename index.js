@@ -35,11 +35,6 @@ const questions = [
       },
       {
         type: "input",
-        name: "require",
-        message: "Specify your project dependencies here (if any).",
-      },
-      {
-        type: "input",
         name: "features",
         message: "Specify the features your project has (if any).",
       },
@@ -78,12 +73,12 @@ function writeToFile(fileName, data) {
   }
 
 // TODO: Create a function to initialize app
-function init() {function init() {
+function init() {
     inquirer.prompt(questions).then((responses) => {
       console.log("Creating Professional README.md File...");
-      writeToFile("../README.md", generateMarkdown({ ...responses }));
+      writeToFile("/dist/README.md", generateMarkdown({ ...responses }));
     });
   } 
   
 // Function call to initialize app
-init();}
+init();
