@@ -5,6 +5,7 @@
   It's meant to save time and to make writing README files much more practical and efficient. 
 
   ## Demo
+https://drive.google.com/file/d/1jQDisRsdmFHYfy-f6MFvMXQgVCb6MZMZ/view?usp=share_link
 
   ## Screenshot
   ![screenshot of terminal in VSCode](/images/screenshot.png)
@@ -19,7 +20,7 @@
   ## Languages and technologies
   NodeJs and Inquirer (NPM).
   ## How to use
-  Run node index.js in your terminal. A set of questions should appear. Answer them, then head to the README file in the dist folder. You'll see the answers you wrote in that file. 
+  Run node index.js in your terminal. A set of questions should appear. Answer them, then head to the README file in the dist folder. You'll see the answers you  wrote in that file. 
   ## Contributors
   It's just me.
   ## Questions
