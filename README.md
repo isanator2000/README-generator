@@ -5,8 +5,7 @@
   It's meant to save time and to make writing README files much more practical and efficient. 
 
   ## Demo
-  (./images/demo.mkv)
-  ![Link to the generated ReadMe file] (./dist/README.md)
+
   ## Screenshot
   ![screenshot of terminal in VSCode](/images/screenshot.png)
   ## Contents
