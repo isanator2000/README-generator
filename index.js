@@ -60,11 +60,6 @@ const questions = [
         message: "List all contributors. (Use GitHub usernames)",
         default: "",
       },
-      {
-        type: "input",
-        name: "test",
-        message: "Provide walkthrough of required tests if applicable.",
-      },
 ];
 
 // TODO: Create a function to write README file
