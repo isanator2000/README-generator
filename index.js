@@ -40,9 +40,15 @@ const questions = [
       },
       {
         type: "input",
-        name: "usage",
+        name: "require",
         message:
           "Specify the languages or technologies used in this project.",
+      },
+      {
+        type: "input",
+        name: "usage",
+        message:
+          "Describe how to use your project.",
       },
       {
         type: "input",
